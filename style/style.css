@@ -1,0 +1,251 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*------START-----*/
+
+header
+{
+    margin-left: 320px;
+    padding-top: 100px;
+    display: flex;
+}
+
+.my_photo
+{
+    width: 220px;
+    height: 233px;
+}
+
+.main_info {
+    margin-left: 40px;
+}
+
+.dots {
+    top: 134px;
+    position: absolute;
+    z-index: -2;
+    width: 87px;
+    height: 57px;
+}
+
+.first_text {
+    width: 304px;
+    height: 63px;
+    padding-top: 79px;
+    color: #848484;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    padding-left: 40px;
+    font-size: 18.1px;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+}
+
+.demarko {
+    padding-left: 42px;
+    margin-top: 0.5px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+main
+{
+    display: flex;
+    margin-left: 320px;
+}
+
+.first_ul li
+{
+    margin-left: 14.5px;
+    list-style: disc;
+    color: #555555;
+    font-family: Georgia, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 10.2px;
+    letter-spacing: 0.3px;
+}
+
+
+.first_ul li:last-child
+{
+    margin-bottom: 41px;
+}
+
+.title_left
+{
+    width: 247px;
+    margin-top: 38.4px;
+    height: 18px;
+    color: #15a98c;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: 400;
+    letter-spacing: 0.44px;
+    margin-bottom: 8.5px;
+}
+
+.title_left2
+{
+    width: 247px;
+    height: 18px;
+    color: #15a98c;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: 400;
+    letter-spacing: 0.44px;
+    margin-bottom: 7px;
+}
+
+.second_ul li
+{
+    list-style: none;
+    color: #555555;
+    font-family: Georgia, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+}
+
+
+.second_ul li:last-child
+{
+    margin-bottom: 41px;
+}
+
+h1
+{
+    margin-top: 22px;
+    margin-left: 16px;
+    width: 214px;
+    height: 44px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+hr
+{
+    margin-top: 13px;
+    margin-left: 13px;
+    width: 40px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+    border: none;
+    display: inline-block;
+}
+
+.main_text
+{
+    width: 367px;
+    height: 149px;
+    color: #555555;
+    font-family: Georgia, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.35px;
+    font-weight: 400;
+    line-height: 21.6px;
+    margin-left: 13px;
+    margin-top: 16.5px;
+}
+
+h2
+{
+    width: 184px;
+    height: 27px;
+    color: #333333;
+    font-family: "Open Sans",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 11px;
+    line-height: 42px;
+}
+
+.main_text2
+{
+    width: 380px;
+    height: 129px;
+    color: #555555;
+    font-family: Georgia, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.35px;
+    font-weight: 400;
+    line-height: 21.6px;
+    margin-left: 13px;
+    margin-top: 18.3px;
+}
+
+.link{
+    /* Style for "Напиши мне" */
+    width: 139px;
+    height: 18px;
+    color: #15a98b;
+    font-family: Georgia,sans-serif;
+    font-size: 12.66px;
+    margin-left: 12.7px;
+    font-weight: 400;
+    line-height: 31px;
+    text-decoration: none;
+    border-bottom: 1px solid #15a98b;
+    /* Text style for "Напиши мне" */
+}
+
+.arrow
+{
+    width: 139px;
+    height: 18px;
+    color: #15a98b;
+    font-family: Georgia,sans-serif;
+    font-size: 12.66px;
+    font-weight: 400;
+    line-height: 31px;
+    text-decoration: none;
+}
